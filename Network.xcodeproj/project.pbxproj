@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A4C942A268437D800AAFC87 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A4C9428268437D800AAFC87 /* SceneDelegate.m */; };
 		3AE0FF8D268429F0005EE466 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AE0FF8C268429F0005EE466 /* AppDelegate.m */; };
 		3AE0FF93268429F0005EE466 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AE0FF92268429F0005EE466 /* ViewController.m */; };
 		3AE0FF96268429F0005EE466 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AE0FF94268429F0005EE466 /* Main.storyboard */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3A4C9428268437D800AAFC87 /* SceneDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		3A4C9429268437D800AAFC87 /* SceneDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		3AE0FF88268429F0005EE466 /* Network.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Network.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AE0FF8B268429F0005EE466 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3AE0FF8C268429F0005EE466 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -58,6 +61,8 @@
 		3AE0FF8A268429F0005EE466 /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				3A4C9429268437D800AAFC87 /* SceneDelegate.h */,
+				3A4C9428268437D800AAFC87 /* SceneDelegate.m */,
 				3AE0FF8B268429F0005EE466 /* AppDelegate.h */,
 				3AE0FF8C268429F0005EE466 /* AppDelegate.m */,
 				3AE0FF91268429F0005EE466 /* ViewController.h */,
@@ -143,6 +148,7 @@
 				3AE0FF93268429F0005EE466 /* ViewController.m in Sources */,
 				3AE0FF8D268429F0005EE466 /* AppDelegate.m in Sources */,
 				3AE0FF9E268429F2005EE466 /* main.m in Sources */,
+				3A4C942A268437D800AAFC87 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
