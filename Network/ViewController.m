@@ -35,5 +35,17 @@
             NSLog(@"error---%@", error);
         }];
 }
-
+- (void)postRequest
+{
+    AFHTTPSessionManager *manager =[AFHTTPSessionManager manager];
+    NSDictionary *dict = @{
+                           @"username":@"sy",
+                           @"pwd":@"123"
+                           };
+    [manager POST:@"https://www.baidu.com/" parameters:dict success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
+        NSLog(@"responseObject---%@", [[NSString alloc] initWithData:responseObject encoding:NSUTF8StringEncoding]);
+    } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
+        NSLog(@"error---%@", error);
+    }];
+}
 @end
